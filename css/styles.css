@@ -1,0 +1,244 @@
+/* COLORS */
+
+:root {
+  --primary-main-color: #212121;
+  --secondary-main-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --extra-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
+  --extra-background-color: #2f303a;
+}
+
+/* BODY */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+  background-color: var(--secondary-main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.buttons {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* HEADER */
+
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* ЛОГОТИП */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.header .logo-part {
+  color: #000000;
+}
+
+/* НАВИГАЦИЯ */
+
+.nav-list .link {
+  color: var(--primary-main-color);
+}
+
+.contacts {
+  color: var(--text-color);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.header .current-page {
+    color: var(--accent-color);
+
+}
+/* ГЕРОЙ */
+
+.hero {
+  background-color: var(--extra-background-color);
+}
+
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-main-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-color);
+  color: var(--secondary-main-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--secondary-main-color);
+  color: var(--secondary-main-color);
+  background-color: #188CE8;
+}
+
+/* ПРЕИМУЩЕСТВА */
+
+.hidden-title {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin: -1px;
+}
+
+.advantages-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-main-color);
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.specialisation-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+
+color: var(--primary-main-color)
+}
+
+/* НАША КОМАНДА */
+
+.team {background-color: var(--secondary-background-color);}
+
+.team-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-main-color);
+}
+
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+
+color: var(--primary-main-color)
+}
+
+.member-position {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+/* FOOTER */
+.footer {background-color: var(--extra-background-color);}
+
+.footer .logo-part {
+color: var(--secondary-main-color)
+}
+
+.footer .place {
+    font-style: normal;
+    color: var(--secondary-main-color)   
+}
+
+.footer .place:hover, 
+.footer .place:focus {
+    color: var(--accent-color)
+}
+
+.footer .contacts {
+    color: var(--extra-text-color)
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+/* ПОРТФОЛИО */
+
+/* КНОПКИ ФИЛЬТРА */
+
+.filter-buttons {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-main-color);
+background-color: var(--secondary-background-color);
+}
+
+.filter-buttons:hover, .filter-buttons:focus {
+    color: var(--secondary-main-color);
+    background-color: var(--accent-color);
+}
+
+.current-button {color: var(--secondary-main-color);
+background-color: var(--accent-color);
+}
+/* КАРТОЧКИ */
+
+.card-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--primary-main-color);
+}
+
+.card-type {
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-color)
+}
