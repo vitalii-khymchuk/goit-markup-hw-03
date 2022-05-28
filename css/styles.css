@@ -25,6 +25,11 @@ img {display: block;}
   margin: 0 auto;
 }
 
+.section-padding {
+  padding-top: var(--typical-value);
+  padding-bottom:var(--typical-value) ;
+}
+
 /* COLORS */
 
 :root {
@@ -58,10 +63,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid var(--accent-color);
-
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 /* ЛОГОТИП */
@@ -95,6 +97,7 @@ body {
 .nav-list .link {
   color: var(--primary-main-color);
 
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -176,9 +179,7 @@ body {
 
 /* ПРЕИМУЩЕСТВА */
 
-.advantages {
-  padding-top: var(--typical-value);
-}
+.advantages {padding-bottom: 0;}
 
 .advantages .list {
   display: flex;
@@ -210,9 +211,6 @@ body {
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 
-.specialisation {
-  margin-top: 94px;
-}
 
 .specialisation-header {
 
@@ -238,10 +236,6 @@ color: var(--primary-main-color);
 /* НАША КОМАНДА */
 
 .team {
-  margin-top:var(--typical-value);
-  padding-top: var(--typical-value);
-  padding-bottom: var(--typical-value);
-
   background-color:var(--secondary-background-color);
 }
 
@@ -402,13 +396,4 @@ line-height: 1.88;
 color: var(--text-color);
 
 margin-top: 4px;
-}
-
-.projects-list img {
-  height: 294px;
-  object-fit: cover;
-}
-
-.basketball-card {
-  object-position: 0px -37px;
 }
