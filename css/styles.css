@@ -260,7 +260,7 @@ flex-basis: calc((100% - 90px) / 4);
 }
 
 .team-card + .team-card {
-  margin-left: var(--typical-value);
+  margin-left: var(--typical-margine);
 }
 
 .members-description {
